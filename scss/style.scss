@@ -1,0 +1,171 @@
+
+/*IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "variables";
+@import "servicios";
+@import "nosotros";
+@import "novedades";
+@import "contacto";
+
+
+
+body{
+        font-family:$fontfamily;
+        background: $color8;
+}
+
+/*====================HEADER==================*/
+.header{
+    background-color: $color4;
+        padding: 20px;
+    .header__logo{
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #fff;
+        .header__logo--modifier{
+            text-decoration-line: none;
+            padding: 10px;
+            color: $color3;
+            font-size: 30px;
+            font-weight: 700;
+            animation-duration: 10s;
+            animation-name: aparecer;
+        }
+        @keyframes aparecer{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+/*===================NAV======================*/
+.search{
+    display: flex;
+    .search__element{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+
+.search{
+    display: flex;
+    .search__element--modifier{
+        background-color: $color3;
+        color: $color2;
+    }
+}
+
+/*=============Main Index===============*/
+.container{
+    .card-principal{
+        width: auto;
+        background-color: $color5;
+        color:$color2;
+        font-size: 16px;
+        font-weight: 400;
+        .card-img-top{
+            width: 100%;
+            height: 100%;
+            border: 1px solid $color4;
+        }
+    }
+    .card-body{
+        h2.card-title{
+            font-size: 20px;
+        }
+    }
+}
+
+.row{
+    .card-central{
+        .card-header{
+            width: 100%;
+            background-color:$color4;
+            color: #fff;
+            border: 2px solid #CEE137;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+    .card-body{
+        h3.card-title{
+            font-size: 25px;
+        }
+    }
+}
+.container{
+    .card{
+        width: auto;
+        .card-img-top{
+            width: 100%;
+        }
+    }
+}
+
+
+.final{
+    text-align: center;
+    margin-top: 1.5em;
+    background-color: $color5;
+    .far{
+        padding-top: 1.5em;
+        font-size: 40px;
+        color:$color6;
+    }
+    .final__element{
+        font-size: 40px;
+        font-weight: 800;
+        color:$color2;
+    }
+    .final__element--modifier{
+        font-size: 15px;
+        color: $color2;
+    }
+}
+
+.imagen{
+    .imagen__final{
+        width: 100%;
+        height: 700px;
+    }
+}
+
+
+
+/*=================FOOTER====================*/
+
+.footer{
+    margin-bottom: 1.5em;
+    .footer__element{
+        margin: 1.5em;
+        color: $color1;
+    }
+}
+
+.footer{
+    margin-bottom:1.5em ;
+    .footer__element--modifier{
+        margin: 1.5em;
+        color: $color3;
+    }
+}
+
+.text{
+    padding: 1em;
+    text-align: center;
+    color: $color1;
+    .text__element{
+        padding: 0.5em;
+        .text__element--modifier{
+            color: $color3;
+            text-decoration: none;
+        }
+    }
+}
+
+

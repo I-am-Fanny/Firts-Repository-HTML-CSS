@@ -1,0 +1,60 @@
+/*VARIABLE*/
+/*color*/
+$color1:#fff;
+$color2:#000000;
+$color3:#CEE137;
+$color4:rgb(29, 37, 44);
+$color5:#f5f3f3;
+$color6:#293B63;
+$color7:#567192;
+$color8:#fdfbfb;
+$colorvioleta:rgb(206, 13, 206);
+
+/*fondo*/
+$imagenfondo: url(/assets/banner.png);
+$fondo1:#eeecec;
+$fondo2:#f0efef;
+
+
+/*tipografía*/
+$fontfamily:'Poppins', sans-serif;
+
+/*Tamaños letras*/
+$sizetitle:40px;
+$subttitle:20px;
+
+/*imagenes*/
+$widthimg1:100%;
+$heightimg1:30vh;
+
+/*Anchos y altos*/
+$widthcontainer:1200px;
+
+
+
+/*Condicionales*/
+@mixin condicional($color) {
+    color: ($color);
+
+    @if $color == blue{
+        font-size: 40px;
+        padding: 10px;
+    }@else if $color == green{
+        font-size: 40px;
+        padding: 10px;
+    }@else if $color == white{
+        font-size: 40px;
+        padding: 10px;
+    }@else if $color == red{
+        font-size: 40px;
+        padding: 10px;
+    }@else if $color == orange{
+        font-size: 40px;
+        padding: 10px;
+    }@else {
+        font-size: 35px;
+        padding: 10px;
+    }
+}
+;
+

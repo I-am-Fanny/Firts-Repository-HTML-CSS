@@ -1,0 +1,55 @@
+/*=========secciones===========*/
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $fondo1;
+    .card__element{
+        font-size: 20px;
+        font-weight: 500;
+        color: $color2;
+    }
+    .card__element--modifier{
+        font-size: 15px;
+        font-weight: 400;
+        color: $color4;
+        
+    }
+    .card__element--modifier1{
+        justify-content: center;
+        width: 80%;
+        height: 30vh;
+    }
+    .card-text{
+        text-align: justify;
+        display: inline-block;
+    }
+}
+
+
+
+/*======segunda seccion======*/
+.container_fluid1{
+    background-image: $imagenfondo;
+
+    .title{
+    color: $color1;
+    }
+section.card{
+    width: 200px;
+    height: 100%;
+    .card-avatar{
+        .img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .card-body{
+        width: 150px;
+        height: 350px;
+    }
+}
+}

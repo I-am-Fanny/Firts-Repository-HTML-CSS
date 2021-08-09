@@ -1,0 +1,166 @@
+/*============Primer Sección==============*/
+.section{
+    background-color: $color8;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    
+    .section__element{
+        color: $color2;
+        font-size: $sizetitle;
+        font-weight: 600;
+    }
+    .section__element--modifier{
+        color: $color4;
+        font-size: ($sizetitle/2)-4;
+    }
+}   
+.row{
+    .card1{
+        background-image: $imagenfondo;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .icon1{
+            @include condicional(blue);
+        }
+        .icon2{
+            @include condicional(green);
+        }
+        .icon3{
+            @include condicional(white);
+        }
+        .icon4{
+            @include condicional(red);
+        }
+        .icon5{
+            @include condicional(orange);
+        }
+        .icon6{
+            @include condicional(violet);
+        }
+        
+        .card1__element{
+            color: $color1;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 5px;
+            .card1__element--modifier{
+                font-size: 15px;
+                font-weight: 400;
+                list-style: none;
+            }
+        }
+    
+    }
+}
+
+/*==============Segunda sección===================*/
+
+.section2{
+    background-color: $fondo2;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    .section2__element{
+        color: $color2;
+        font-size: $sizetitle;
+        font-weight: 600;
+    }
+    .section2__element--modifier{
+        color: $color4;
+        font-size: ($sizetitle/2)-4;
+    }
+}
+
+
+    .card2{
+        width: auto;
+        .card2__element{
+            width: 100%;
+            height: $heightimg1;
+            filter: grayscale(0%);
+            transition: all 2s;
+        }
+        .card2__element:hover{
+            filter: grayscale(100%);
+            height: 35vh;
+        }
+        .card2__element--modifier{
+            font-size: 15px;
+        }
+}
+
+/*================Tercera Sección==================*/
+
+.section3{
+    background-color: $color8;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    .section{
+        font-size: $sizetitle;
+        font-weight: 600;
+        color: $color2;
+    }
+    .section__element--modifier{
+        color: $color4;
+        font-size: ($sizetitle/2)- 4;
+    }
+    .mockup{
+        width: 100%;
+        height:100%;
+        animation-duration: 15s;
+        animation-name: aparecer;
+    }
+    @keyframes aparecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+
+
+
+.card3{
+    .card{
+        width:auto;
+        overflow: hidden;
+        margin-bottom: 20px; 
+        padding: 10px;
+        background: rgba( 206, 225, 55, 0.15 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+        .fas{
+        text-align: center;
+        color: $colorvioleta;
+        font-size: 40px;
+        }
+        .card__element{
+        text-align: center;
+        font-size: $subttitle;
+        color:$color2;
+        box-sizing: border-box;
+        }
+        
+        .card__element--modifier2{
+        text-align: center;
+        font-size: ($subttitle - 5);
+        list-style: none;
+        box-sizing: border-box;
+        }
+        .card__element--modifier{
+        text-align: left;
+        font-size: ($subttitle - 5);
+        list-style: none;
+        box-sizing: border-box;
+        }
+    }
+}
