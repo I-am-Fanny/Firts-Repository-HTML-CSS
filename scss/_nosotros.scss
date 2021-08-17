@@ -164,3 +164,58 @@
         }
     }
 }
+
+
+/*================POSTULACIONES=====================*/
+/*BANNER*/
+.banner{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .action{
+        .action__element{
+            font-weight: 600;
+        }
+        .action__element1{
+            font-weight: 400;
+        }
+        .action__element--modifier{
+            font-weight: 500;
+        }
+        .action__element--modifier:hover{
+            color: $color2;
+            background-color: $color3;
+        }
+    }
+}
+
+/*tarjeta de enlace*/
+.boton{
+    .boton__element{
+        background-color: $color7;
+    }
+    .boton__element--modifier{
+        background-color: $colorvioleta;
+    }
+
+}
+
+
+
+/*==================visas====================*/
+
+.card-visa{
+    background-color: $color8;
+    font-size: 30px;
+    .card-visa__element{
+        text-align: center;
+        font-size: 30px - 12px;
+    }
+    .card-visa__element--modifier{
+        list-style-type: none;
+        text-align: center;
+        font-size: 30px - 12px;
+    }
+}
