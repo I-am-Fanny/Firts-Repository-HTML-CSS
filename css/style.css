@@ -9,6 +9,17 @@
 /*imagenes*/
 /*Anchos y altos*/
 /*Condicionales*/
+/*========BANNER=======*/
+.textoPortada {
+  text-align: center;
+}
+
+.textoPortada .textoPortada__element {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+}
+
 /*========================MAIN SERVICIOS===================*/
 .card-planes {
   width: 100%;
@@ -83,6 +94,12 @@
   color: #1d252c;
   font-size: 15px;
   font-weight: 400;
+}
+
+/*==================Páginas adicionales free- standard- premium==================*/
+.button .button__element {
+  background-color: #ce0dce;
+  border: #ce0dce;
 }
 
 /*============Primer Sección==============*/
@@ -409,6 +426,20 @@
 .container_fluid1 section.card .card-body {
   width: 150px;
   height: 350px;
+}
+
+.cardFormulario {
+  background-color: #CEE137;
+}
+
+.cardFormulario .cardFormulario__element {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cardFormulario .cardFormulario__element--modifier {
+  font-size: 17px;
+  font-weight: 300;
 }
 
 body {

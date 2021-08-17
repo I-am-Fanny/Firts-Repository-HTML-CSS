@@ -1,0 +1,11 @@
+.cardFormulario{
+    background-color: $color3;
+    .cardFormulario__element{
+        font-size: $sizetitle - 10 ;
+        font-weight: 600;
+    }
+    .cardFormulario__element--modifier{
+        font-size: ($sizetitle /2)- 3;
+        font-weight: 300;
+    }
+}

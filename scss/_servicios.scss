@@ -1,3 +1,17 @@
+/*========BANNER=======*/
+.textoPortada{
+    text-align: center;
+    
+    .textoPortada__element{
+        color:$color1;
+        font-size: 60px;
+        font-weight: 600;
+    
+    }
+}
+
+
+
 /*========================MAIN SERVICIOS===================*/
 .card-planes{
     width: 100%;
@@ -61,3 +75,15 @@
         font-weight: 400;
     }
 }
+
+/*==================Páginas adicionales free- standard- premium==================*/
+
+.button{
+    .button__element{
+        background-color: $colorvioleta;
+        border: $colorvioleta;
+    }
+}
+
+
+
