@@ -108,22 +108,35 @@ body{
 }
 
 
+.cardCentral{
+    .cardCentral__element{
+        color: $color2;
+    }
+    .cardCentral__element--modifier{
+        color: $color1;
+        background-color: $colorvioleta;
+    }
+}
+
+
 .final{
     text-align: center;
     margin-top: 1.5em;
-    background-color: $color5;
+    
     .far{
         padding-top: 1.5em;
         font-size: 40px;
-        color:$color6;
+        color:$colorvioleta;
+        text-shadow: 1px 1px 1px black;
     }
     .final__element{
         font-size: 40px;
         font-weight: 800;
-        color:$color2;
+        color:$color3;
+        text-shadow: 1.5px 1.5px 2px black;
     }
     .final__element--modifier{
-        font-size: 15px;
+        font-size: 20px;
         color: $color2;
     }
 }
@@ -169,3 +182,72 @@ body{
 }
 
 
+/*==========================RESPONSIVE==============================*/
+
+@media (min-width: 320px) and (max-width:479px){
+    
+    .cardPrincipal{
+        .cardPrincipal__element{
+            font-size: 20px;
+        }
+        .cardPrincipal__element--modifier{
+            font-size: 18px;
+        }
+        .cardPrincipal__element--modifier1{
+            font-size: 18px;
+        }
+    }
+
+    .card.Tercera{
+        .cardTercera__element{
+            font-size: 20px;
+        }
+        .cardTercera__element--modifier{
+            font-size: 18px;
+        }
+        .card.Tercera__element--modifier1{
+            font-size: 18px;
+        }
+    }
+
+
+
+    .cardSegunda1{
+        width: 100%;
+        .cardSegunda1__element{
+            font-size: 20px;
+        }
+        .cardSegunda1__element--modifier{
+            font-size: 18px;
+        }
+        .cardSegunda1__element--modifier1{
+            font-size: 18px;
+            word-spacing: normal;
+        }
+    }
+
+
+
+    .imagen{
+        .imagen__final{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
+
+@media (min-width:480px) and (max-width:639px){
+    
+
+
+
+
+
+    .imagen{
+        .imagen__final{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

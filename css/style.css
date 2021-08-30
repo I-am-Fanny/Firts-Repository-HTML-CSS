@@ -122,7 +122,7 @@
 }
 
 .row .card1 {
-  background-image: url(/assets/banner.png);
+  background-image: url(/assets/FONDO.jpg);
   height: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -406,7 +406,7 @@
 
 /*======segunda seccion======*/
 .container_fluid1 {
-  background-image: url(/assets/banner.png);
+  background-image: url(/assets/FONDO.jpg);
 }
 
 .container_fluid1 .title {
@@ -544,26 +544,36 @@ body {
   width: 100%;
 }
 
+.cardCentral .cardCentral__element {
+  color: #000000;
+}
+
+.cardCentral .cardCentral__element--modifier {
+  color: #fff;
+  background-color: #ce0dce;
+}
+
 .final {
   text-align: center;
   margin-top: 1.5em;
-  background-color: #f5f3f3;
 }
 
 .final .far {
   padding-top: 1.5em;
   font-size: 40px;
-  color: #293B63;
+  color: #ce0dce;
+  text-shadow: 1px 1px 1px black;
 }
 
 .final .final__element {
   font-size: 40px;
   font-weight: 800;
-  color: #000000;
+  color: #CEE137;
+  text-shadow: 1.5px 1.5px 2px black;
 }
 
 .final .final__element--modifier {
-  font-size: 15px;
+  font-size: 20px;
   color: #000000;
 }
 
@@ -604,5 +614,51 @@ body {
 .text .text__element .text__element--modifier {
   color: #CEE137;
   text-decoration: none;
+}
+
+/*==========================RESPONSIVE==============================*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .cardPrincipal .cardPrincipal__element {
+    font-size: 20px;
+  }
+  .cardPrincipal .cardPrincipal__element--modifier {
+    font-size: 18px;
+  }
+  .cardPrincipal .cardPrincipal__element--modifier1 {
+    font-size: 18px;
+  }
+  .card.Tercera .cardTercera__element {
+    font-size: 20px;
+  }
+  .card.Tercera .cardTercera__element--modifier {
+    font-size: 18px;
+  }
+  .card.Tercera .card.Tercera__element--modifier1 {
+    font-size: 18px;
+  }
+  .cardSegunda1 {
+    width: 100%;
+  }
+  .cardSegunda1 .cardSegunda1__element {
+    font-size: 20px;
+  }
+  .cardSegunda1 .cardSegunda1__element--modifier {
+    font-size: 18px;
+  }
+  .cardSegunda1 .cardSegunda1__element--modifier1 {
+    font-size: 18px;
+    word-spacing: normal;
+  }
+  .imagen .imagen__final {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .imagen .imagen__final {
+    width: 100%;
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
