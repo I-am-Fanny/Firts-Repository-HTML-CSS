@@ -617,7 +617,7 @@ body {
 }
 
 /*==========================RESPONSIVE==============================*/
-@media (min-width: 320px) and (max-width: 479px) {
+@media (min-width: 320px) and (max-width: 478.98px) {
   .cardPrincipal .cardPrincipal__element {
     font-size: 20px;
   }
@@ -626,6 +626,10 @@ body {
   }
   .cardPrincipal .cardPrincipal__element--modifier1 {
     font-size: 18px;
+  }
+  .cardTerceraImagen .cardTerceraImagen__element {
+    width: 90%;
+    height: auto;
   }
   .card.Tercera .cardTercera__element {
     font-size: 20px;
@@ -649,13 +653,98 @@ body {
     font-size: 18px;
     word-spacing: normal;
   }
+  .imagen {
+    width: 100%;
+  }
   .imagen .imagen__final {
     width: 100%;
     height: auto;
   }
 }
 
-@media (min-width: 480px) and (max-width: 639px) {
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .cardPrincipal .cardPrincipal__element {
+    font-size: 20px;
+  }
+  .cardPrincipal .cardPrincipal__element--modifier {
+    font-size: 18px;
+  }
+  .cardPrincipal .cardPrincipal__element--modifier1 {
+    font-size: 18px;
+  }
+  .cardTerceraImagen .cardTerceraImagen__element {
+    width: 90%;
+  }
+  .card.Tercera .cardTercera__element {
+    font-size: 20px;
+  }
+  .card.Tercera .cardTercera__element--modifier {
+    font-size: 18px;
+  }
+  .card.Tercera .card.Tercera__element--modifier1 {
+    font-size: 18px;
+  }
+  .cardSegunda1 {
+    width: 100%;
+  }
+  .cardSegunda1 .cardSegunda1__element {
+    font-size: 20px;
+  }
+  .cardSegunda1 .cardSegunda1__element--modifier {
+    font-size: 18px;
+  }
+  .cardSegunda1 .cardSegunda1__element--modifier1 {
+    font-size: 18px;
+    word-spacing: normal;
+  }
+  .imagen {
+    width: 100%;
+  }
+  .imagen .imagen__final {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cardPrincipal .cardPrincipal__element {
+    font-size: 20px;
+  }
+  .cardPrincipal .cardPrincipal__element--modifier {
+    font-size: 18px;
+  }
+  .cardPrincipal .cardPrincipal__element--modifier1 {
+    font-size: 18px;
+  }
+  .cardTerceraImagen .cardTerceraImagen__element {
+    width: 90%;
+    height: auto;
+  }
+  .card.Tercera .cardTercera__element {
+    font-size: 20px;
+  }
+  .card.Tercera .cardTercera__element--modifier {
+    font-size: 18px;
+  }
+  .card.Tercera .card.Tercera__element--modifier1 {
+    font-size: 18px;
+  }
+  .cardSegunda1 {
+    width: 100%;
+  }
+  .cardSegunda1 .cardSegunda1__element {
+    font-size: 20px;
+  }
+  .cardSegunda1 .cardSegunda1__element--modifier {
+    font-size: 18px;
+  }
+  .cardSegunda1 .cardSegunda1__element--modifier1 {
+    font-size: 18px;
+    word-spacing: normal;
+  }
+  .imagen {
+    width: 100%;
+  }
   .imagen .imagen__final {
     width: 100%;
     height: auto;
