@@ -132,7 +132,7 @@
         overflow: hidden;
         margin-bottom: 20px; 
         padding: 10px;
-        background: rgba( 206, 225, 55, 0.15 );
+        background:$color3;
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 4px );
         -webkit-backdrop-filter: blur( 4px );
@@ -164,7 +164,7 @@
         }
     }
 }
-
+ 
 
 /*================POSTULACIONES=====================*/
 /*BANNER*/
@@ -190,6 +190,10 @@
         }
     }
 }
+
+
+
+
 
 /*tarjeta de enlace*/
 .boton{
